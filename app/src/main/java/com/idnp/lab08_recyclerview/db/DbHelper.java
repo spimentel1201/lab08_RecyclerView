@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite.db;
+package com.idnp.lab08_recyclerview.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

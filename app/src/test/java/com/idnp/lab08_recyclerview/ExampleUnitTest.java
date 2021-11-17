@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite;
+package com.idnp.lab08_recyclerview;
 
 import org.junit.Test;
 

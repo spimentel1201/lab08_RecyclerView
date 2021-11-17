@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.idnp.lab07_sqlite">
+    package="com.idnp.lab08_recyclerview">
 
     <application
         android:allowBackup="true"
@@ -8,32 +8,32 @@
         android:label="App Prueba SQLite"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lab07_sqlite">
+        android:theme="@style/Theme.Lab08_recyclerview">
         <activity
-            android:name=".NuevoActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.idnp.lab08_recyclerview.NuevoActivity"
+            android:parentActivityName="com.idnp.lab08_recyclerview.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.idnp.lab08_recyclerview.MainActivity" />
         </activity>
         <activity
-            android:name=".VerActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.idnp.lab08_recyclerview.VerActivity"
+            android:parentActivityName="com.idnp.lab08_recyclerview.MainActivity">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.idnp.lab08_recyclerview.MainActivity" />
         </activity>
         <activity
-            android:name=".EditarActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.idnp.lab08_recyclerview.EditarActivity"
+            android:parentActivityName="com.idnp.lab08_recyclerview.MainActivity">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.idnp.lab08_recyclerview.MainActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.idnp.lab08_recyclerview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

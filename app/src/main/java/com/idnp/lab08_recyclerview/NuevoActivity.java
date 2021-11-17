@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite;
+package com.idnp.lab08_recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.idnp.lab07_sqlite.db.DbUsers;
+import com.idnp.lab08_recyclerview.R;
+import com.idnp.lab08_recyclerview.db.DbUsers;
 
 public class NuevoActivity extends AppCompatActivity {
 
@@ -22,7 +23,7 @@ public class NuevoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nuevo);
-
+        getSupportActionBar().hide();
         txtNombres = findViewById(R.id.txtNombres);
         txtApellidos = findViewById(R.id.txtApellidos);
         txtTelefono = findViewById(R.id.txtTelefono);

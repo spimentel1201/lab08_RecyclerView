@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite.entidades;
+package com.idnp.lab08_recyclerview.entidades;
 
 public class Usuarios {
 

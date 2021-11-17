@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite;
+package com.idnp.lab08_recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,18 +6,15 @@ import android.os.Bundle;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.os.Bundle;
-import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.idnp.lab07_sqlite.db.DbUsers;
+import com.idnp.lab08_recyclerview.R;
+import com.idnp.lab08_recyclerview.db.DbUsers;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.idnp.lab07_sqlite.entidades.Usuarios;
+import com.idnp.lab08_recyclerview.entidades.Usuarios;
 
 public class EditarActivity extends AppCompatActivity {
 
@@ -33,6 +30,7 @@ public class EditarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ver);
+        getSupportActionBar().hide();
 
         txtNombres = findViewById(R.id.txtNombres);
         txtApellidos = findViewById(R.id.txtApellidos);

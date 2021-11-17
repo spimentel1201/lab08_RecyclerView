@@ -1,4 +1,4 @@
-package com.idnp.lab07_sqlite.db;
+package com.idnp.lab08_recyclerview.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import androidx.annotation.Nullable;
 
-import com.idnp.lab07_sqlite.entidades.Usuarios;
+import com.idnp.lab08_recyclerview.entidades.Usuarios;
 
 import java.util.ArrayList;
 

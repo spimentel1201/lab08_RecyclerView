@@ -1,23 +1,21 @@
-package com.idnp.lab07_sqlite;
+package com.idnp.lab08_recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Bundle;
-import android.renderscript.ScriptGroup;
 import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.idnp.lab07_sqlite.db.DbUsers;
-import com.idnp.lab07_sqlite.entidades.Usuarios;
+import com.idnp.lab08_recyclerview.R;
+import com.idnp.lab08_recyclerview.db.DbUsers;
+import com.idnp.lab08_recyclerview.entidades.Usuarios;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class VerActivity extends AppCompatActivity {
@@ -33,7 +31,7 @@ public class VerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ver);
-
+        getSupportActionBar().hide();
         txtNombres = findViewById(R.id.txtNombres);
         txtApellidos = findViewById(R.id.txtApellidos);
         txtTelefono = findViewById(R.id.txtTelefono);
