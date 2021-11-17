@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="lista">Lista de Usuarios Registrados</string>
+    <string name="busqueda">Búsqueda</string>
+    <string name="TituloVer">Crear Usuario</string>
+    <string name="TituloCrear">Crear Usuario</string>
+</resources>
